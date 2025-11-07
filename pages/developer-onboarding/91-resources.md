@@ -26,8 +26,4 @@ This tutorial uses the `list-subscriptions` feature as a complete example. All t
 
 The tutorial example components demonstrate the `list-subscriptions` feature that returns individual subscription records, while the production components use a different feature that returns aggregated subscription rule state counts. Both are valid examples of the Clean Architecture pattern described in this tutorial.
 
----
-**Questions?** Ask the team or check existing implementations in:
-- `src/lib/core/use-case/list-rules-usecase.ts`
-- `src/lib/infrastructure/gateway/rule-gateway/`
-- `test/gateway/rule/`
+**Questions?** Shoot a message on Mattermost or check existing implementations code for examples!
