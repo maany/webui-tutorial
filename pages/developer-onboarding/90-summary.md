@@ -1,6 +1,6 @@
 ## 🎯 Summary
 
-You've learned to build features using **Clean Architecture**:
+You've learned to build features using **WebUI Architecture**:
 
 1. **Gateway Layer**: Port + Gateway + Endpoint + Tests
 2. **UseCase Layer**: Models + UseCase + Ports

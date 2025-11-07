@@ -1,6 +1,6 @@
 ## 📋 Tutorial Overview
 
-This tutorial will teach you how to build features in the Rucio WebUI using Clean Architecture principles. You'll learn to:
+This tutorial will teach you how to build features in the Rucio WebUI. You'll learn to:
 
 1. **Create Secondary Output Port & Gateway** (with tests)
 2. **Create a Feature** (UseCase + Controller + Presenter)

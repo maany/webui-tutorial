@@ -1,6 +1,6 @@
 ## 🏗️ Architecture Overview (3 min)
 
-### Clean Architecture Flow
+### Architecture Flow
 
 ```mermaid {theme: 'base', scale: 0.75}
 flowchart LR
