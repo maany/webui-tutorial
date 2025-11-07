@@ -1,1 +1,4 @@
+[Data Flow Diagram](https://camo.githubusercontent.com/98bb167782b032e95b3e23627dbe3a27246b3fc1e1bff19761ea4f25849199f6/68747470733a2f2f736e6970626f6172642e696f2f3273306544632e6a7067)
+
 <ArchitectureDiagram />
+
