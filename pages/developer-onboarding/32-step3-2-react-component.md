@@ -2,10 +2,10 @@
 
 **Purpose**: Call API route and display data using React hooks
 
-<CodeBlock title="src/component-library/pages/Subscriptions/list/ListSubscription.tsx" language="typescript">
+<CodeBlock title="src/component-library/pages/Subscriptions/list/ListSubscriptionTutorialExample.tsx" language="typescript">
 
 ```typescript
-export const ListSubscription = (props: ListSubscriptionProps) => {
+xport const ListSubscriptionTutorialExample = (props: ListSubscriptionTutorialExampleProps) => {
     // Hook for streaming table data
     const { gridApi, onGridReady, streamingHook, startStreaming } =
         useTableStreaming<SubscriptionViewModel>(props.initialData);
@@ -20,12 +20,33 @@ export const ListSubscription = (props: ListSubscriptionProps) => {
         }
     }, [gridApi, startStreaming, startedStreaming]);
 
+    // Get user account (non-streaming query)
+    const {
+        data: siteHeader,
+        error: siteHeaderError,
+        isFetching,
+    } = useQuery({
+        queryKey: ['subscription-account'],
+        queryFn: async () => {
+            const res = await fetch('/api/feature/get-site-header');
+            return res.json();
+        },
+        retry: false,
+    });
+
+    if (isFetching) return <div>Loading...</div>;
+    if (siteHeaderError) return <div>Error loading account</div>;
+
+    const account = siteHeader.activeAccount.rucioAccount;
+
     return (
         <div className="flex flex-col space-y-3 w-full">
             <Heading text="Subscriptions" />
-            <ListSubscriptionTable
+            <Heading size="sm" text={`for account ${account}`} />
+            <ListSubscriptionTutorialTable
                 streamingHook={streamingHook}
                 onGridReady={onGridReady}
+                account={account}
             />
         </div>
     );

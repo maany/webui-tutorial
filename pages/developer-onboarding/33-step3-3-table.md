@@ -2,7 +2,7 @@
 
 **Purpose**: Display streamed data in AG Grid table
 
-<CodeBlock title="src/component-library/pages/Subscriptions/list/ListSubscriptionTable.tsx" language="typescript">
+<CodeBlock title="src/component-library/pages/Subscriptions/list/ListSubscriptionTutorialTable.tsx" language="typescript">
 
 ```typescript
 export const ListSubscriptionTable = (props: ListSubscriptionTableProps) => {
