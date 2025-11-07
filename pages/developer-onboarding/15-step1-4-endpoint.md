@@ -36,6 +36,7 @@ export default class ListSubscriptionsEndpoint extends BaseStreamableEndpoint<
 ```
 
 </CodeBlock>
+---
 
 **Key Points**:
 - Extends `BaseStreamableEndpoint<TDTO, TStreamData>`

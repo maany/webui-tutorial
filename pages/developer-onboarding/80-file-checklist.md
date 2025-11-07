@@ -9,6 +9,7 @@ When creating a new feature `MyFeature` for listing items:
 - [ ] `src/lib/core/port/primary/my-feature-port.ts` - Input/Output ports
 - [ ] `src/lib/core/usecase-models/my-feature-usecase-models.ts` - Request/Response/Error models
 - [ ] `src/lib/core/use-case/my-feature-usecase.ts` - Use case implementation
+---
 
 ### Infrastructure Layer
 - [ ] `src/lib/infrastructure/gateway/my-feature-gateway/my-feature-gateway.ts` - Gateway implementation
@@ -18,6 +19,7 @@ When creating a new feature `MyFeature` for listing items:
 - [ ] `src/lib/infrastructure/presenter/my-feature-presenter.ts` - Presenter
 - [ ] `src/lib/infrastructure/data/view-model/my-feature.ts` - View model
 - [ ] `src/lib/infrastructure/ioc/features/my-feature-feature.ts` - Feature registration
+---
 
 ### API & UI
 - [ ] `src/app/api/feature/my-feature/route.ts` - API route

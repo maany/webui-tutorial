@@ -10,6 +10,7 @@
 | **Response Format** | NDJSON (one JSON per line) | Single JSON |
 | **API Route** | `isStreaming: true` | `isStreaming: false` |
 
+---
 ### 2. Data Flow
 
 ```

@@ -16,6 +16,8 @@ This tutorial uses the `list-subscriptions` feature as a complete example. All t
 - `src/component-library/pages/Subscriptions/list/ListSubscriptionTutorialExample.tsx` - Main page component
 - `src/component-library/pages/Subscriptions/list/ListSubscriptionTutorialTable.tsx` - Table component
 
+---
+
 **Production Components** (actual implementation):
 - `src/component-library/pages/Subscriptions/list/ListSubscription.tsx` - Uses `list-subscription-rule-states` endpoint
 - `src/component-library/pages/Subscriptions/list/ListSubscriptionTable.tsx` - Displays aggregated rule state counts
